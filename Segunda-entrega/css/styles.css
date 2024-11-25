@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-nav a {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.join-button {
+    background-color: #8dc891;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.imagenEstudiante {
+    width: 100%;
+}
+
+.imagenEstudiante-image {
+    width: 100%;
+    display: block;
+}
+
+.indicadores {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.Resultados h3 {
+    color: #8dc891;
+    font-size: 32px;
+}
+
+.informacion {
+    background-color: #fef4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.informacion-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+
+.icono-targeta {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+}
+
+.social-links  {
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+}
